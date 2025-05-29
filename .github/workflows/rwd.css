@@ -1,0 +1,199 @@
+body{
+    background-image: url(image/b70b7fd0-4b43-469c-9d87-980e8a7b8453.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.mbg{
+    background-color: rgba(50, 50, 50, 0.6)
+}
+.navbar-light .navbar-brand {
+    color: #992222;
+}
+.navbar-light .navbar-nav .nav-link  { /*選單文字的顏色*/
+	color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover { /*選單文字 hover*/
+	color: rgb(150, 150, 102);
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(170, 97, 23, 0.9);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(150, 150, 102);
+}
+.box {
+    background-color: rgba(50, 50, 50, 0.6);
+    padding: 20px;
+}
+.navbar-light .navbar-brand:hover {
+    color: #1f91cb;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	background-color: #FFFFFF;
+	color: rgba(0,0,0,.9);
+}
+.my_photo{
+ width:160px;
+}
+.contract ul{
+    padding:0;
+    list-style: none;
+}
+.contract ul li{
+    padding:20px 40px;
+    display: inline-block;
+    font-size: 30px;
+}
+.contract ul li a{
+    color: rgb(255, 255, 255);
+     
+}
+.contract ul li a:hover{
+    color: rgb(205, 205, 31);
+     
+}
+.pokempn{
+    width:400px;
+    padding: 20px;
+   
+}
+.card {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    color: #333;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .card-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  .btn-primary {
+    background-color: #ff7e5f;
+    border: none;
+    font-weight: bold;
+  }
+
+  .btn-primary:hover {
+    background-color: #eb6750;
+  }
+  
+.icon { 
+position: fixed; 
+left: 0%; 
+top: 80%; 
+width: 75px; 
+
+height: 75px; 
+background: linear-gradient(to bottom, #FD9C36 0%, #FCBE5C 80%); 
+border-radius: 10px; 
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 3); 
+transform: translate(-50%, -50%); 
+} 
+.water { 
+position: absolute; 
+bottom: 0; 
+background: rgba(0,190,177,.4); 
+width: 75px; 
+}
+.wavel { 
+height: 22px; 
+border-top-right-radius: 100% 0px; 
+border-top-left-radius: 100% 20px; 
+border-bottom-right-radius: 20px; 
+border-bottom-left-radius: 20px; 
+} 
+.wave2 { 
+height: 25px; 
+border-top-right-radius: 100% 5px; 
+border-top-left-radius: 100% 5px; 
+border-bottom-right-radius: 20px; 
+border-bottom-left-radius: 20px; 
+} 
+.wave3 { 
+height: 20px; 
+border-top-right-radius: 100% 15px; 
+border-top-left-radius: 100% 0px; 
+border-bottom-right-radius: 20px; 
+border-bottom-left-radius: 20px; 
+} 
+.boat { 
+position: absolute; 
+left: 50%; 
+bottom: 8px; 
+transform: translate(-50%, -50%); 
+background: #EE6648; 
+border-bottom-right-radius: 40px; 
+border-bottom-left-radius: 40px; 
+width: 50px; 
+height: 15px; 
+}
+.sail1 { 
+position: absolute; 
+left: calc(50% + 12px); 
+top: 28px; 
+transform: translate(-50%, -50%); 
+width: 0; 
+height: 0; 
+border-style: solid; 
+border-width: 30px 0 0 25px; 
+border-color: transparent transparent transparent #FFF8ED; 
+} 
+.sail2 { 
+position: absolute; 
+left: calc(50% - 14px); 
+top: 32px; 
+transform: translate(-50%,-50%); 
+width: 0; 
+height: 0; 
+border-style: solid; 
+border-width: 0 0 22px 22px; 
+border-color: transparent transparent  #FFF8ED transparent; 
+} 
+.icon { 
+
+animation-name: boxmove;
+animation-duration:2s;
+animation-iteration-count: infinite; 
+animation-direction: alternate;
+} 
+@keyframes boxmove { 
+0% { 
+left:100px; 
+background:#183; 
+} 
+25%{ 
+background:#388; 
+} 
+50%{ 
+background:#b11; 
+transform: scale(2.25) rotate(-350deg); 
+
+} 
+100%{ 
+left:300px; 
+background:#f95;
+}
+ 
+}
